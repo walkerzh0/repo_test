@@ -6,7 +6,7 @@ $action='root';
 if (!$zbp->CheckRights($action)) {$zbp->ShowError(6);die();}
 if (!$zbp->CheckPlugin('apost_free')) {$zbp->ShowError(48);die();}
 
-$blogtitle='游客发布-投稿';
+$blogtitle='游客发布-投稿';dAdAAFSA
 require $blogpath . 'zb_system/admin/admin_header.php';
 require $blogpath . 'zb_system/admin/admin_top.php';
 if(isset($_POST['Items'])){

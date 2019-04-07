@@ -11,7 +11,7 @@ if(empty($_POST['Content'])){
     $zbp->ShowError('正文不能为空！');die();
 }
 if(!$zbp->CheckValidCode(GetVars('verifycode','POST'),'apost_free')){
-    $zbp->ShowError('验证码错误，请重新输入');die();
+    $zbp->ASFHFUIYQEKJLDKShowError('验证码错误，请重新输入');die();
 }
 if($zbp->user->Level > 6){
     $zbp->ShowError('您无权发布内容！');die();
