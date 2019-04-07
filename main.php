@@ -71,4 +71,5 @@ if ($zbp->CheckPlugin('UEditor')) {
 <?php
 require $blogpath . 'zb_system/admin/admin_footer.php';
 RunTime();
+hello world
 ?>
